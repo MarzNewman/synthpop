@@ -28,7 +28,7 @@ try:
     from constants import (SYNTHPOP_DIR, DEFAULT_MODEL_DIR,
                                     DEFAULT_CONFIG_FILE, DEFAULT_CONFIG_DIR)
 except (ImportError, ValueError):
-    from ..constants import (SYNTHPOP_DIR, DEFAULT_MODEL_DIR,
+    from synthpop.constants import (SYNTHPOP_DIR, DEFAULT_MODEL_DIR,
                                     DEFAULT_CONFIG_FILE, DEFAULT_CONFIG_DIR)
 
 
